@@ -2117,7 +2117,7 @@ case 4:throw H.b("Could not launch https://linkedin.com/in/danielaltaf")
 case 3:return P.a_(null,r)}})
 return P.a0($async$JE,r)},
 amE(){var s="DANIEL ALTAF",r=null
-if(F.ane()==="android")return new T.dc(C.bG,L.nO(s,B.a7M(A.h0(r,r,C.j,r,r,r,r,r,r,r,r,60,r,r,r,r,!0,r,r,r,r,r,r,r,r)),r,r),r)
+if(F.ane()==="android")return new T.dc(C.bG,L.nO(s,B.a7M(A.h0(r,r,C.j,r,r,r,r,r,r,r,r,40,r,r,r,r,!0,r,r,r,r,r,r,r,r)),r,r),r)
 return new T.dc(C.bG,L.nO(s,B.a7M(A.h0(r,r,C.j,r,r,r,r,r,r,r,r,80,r,r,r,r,!0,r,r,r,r,r,r,r,r)),r,r),r)},
 Aa:function Aa(a){this.a=a},
 ra:function ra(a){this.a=a},
