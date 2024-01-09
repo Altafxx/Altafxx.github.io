@@ -29,7 +29,8 @@ export default function RootLayout({
       </Head>
       <body className={`${font.className} min-h-screen flex flex-col text-justify`}>
         {/* <main className='py-12 px-8 md:px-12 xl:px-24 flex-1 overflow-y-auto relative'> */}
-        <main className='py-12 px-8 md:px-12 xl:px-24 flex-1 overflow-y-auto'>
+        <div className="pattern-dots pattern-white pattern-bg-black pattern-opacity-10 pattern-size-4 fixed top-0 left-0 right-0 bottom-0 z-0"></div>
+        <main className='py-12 px-8 md:px-12 xl:px-24 flex-1 overflow-y-auto z-10'>
           {children}
         </main>
       </body>
