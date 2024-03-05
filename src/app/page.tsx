@@ -7,7 +7,7 @@ export default function Home() {
     <div>
       <Banner name={profile.name.first} position={profile.position} social={profile.social} />
       <Stacks />
-      <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
+      <div className="grid grid-cols-1 gap-4 md:grid-cols-2">
         <div className="md:order-1 2xl:mr-60 xl:mr-32 lg:mr-16">
           <Experience experience={profile.experience} />
           <Education education={profile.education} />

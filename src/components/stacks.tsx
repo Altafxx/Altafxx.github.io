@@ -6,17 +6,17 @@ export default function Stacks() {
     const imageClass = "hover:scale-110 duration-150 opacity-80 hover:opacity-100 hover:rotate-12 transition-all ease-in-out duration-300"
 
     return (
-        <div className="group/container text-center my-3 pt-3 pb-6 bg-lavender-macaron/15 hover:bg-lavender-macaron/30 rounded-lg ring-2 ring-lavender-macaron/50 hover:ring-lavender-macaron transition-all ease-in-out duration-300">
+        <div className="pt-3 pb-6 my-3 text-center transition-all duration-300 ease-in-out rounded-lg group/container bg-lavender-macaron/15 hover:bg-lavender-macaron/30 ring-2 ring-lavender-macaron/50 hover:ring-lavender-macaron">
             <div className="flex justify-center ">
-                <Badge className="rounded-full px-4 bg-white/0 group-hover/container:bg-white transition-all ease-in-out duration-300">
-                    <h1 className="my-2 bg-gradient-to-r from-lavender-macaron via-raspberry-ganache to-golden-honeycomb hover:to-lavender-macaron hover:via-raspberry-ganache hover:from-golden-honeycomb bg-clip-text group-hover/container:text-transparent transition-all ease-in-out duration-300">Primary Toolbelt</h1>
+                <Badge className="px-4 transition-all duration-300 ease-in-out rounded-full bg-white/0 group-hover/container:bg-white">
+                    <h1 className="my-2 transition-all duration-300 ease-in-out bg-gradient-to-r from-lavender-macaron via-raspberry-ganache to-golden-honeycomb hover:to-lavender-macaron hover:via-raspberry-ganache hover:from-golden-honeycomb bg-clip-text group-hover/container:text-transparent">Primary Toolbelt</h1>
                 </Badge></div>
-            <div className="grid grid-cols-3 md:grid-cols-4 xl:grid-cols-7 gap-4 px-1">
+            <div className="grid grid-cols-3 gap-4 px-1 md:grid-cols-4 xl:grid-cols-7">
                 <div className="flex flex-col items-center justify-center">
                     <Link href={"https://git-scm.com/"} >
                         <div className="relative inline-flex group">
                             <div
-                                className="absolute transitiona-all ease-in-out duration-300 opacity-0 -inset-px bg-gradient-to-r from-raspberry-ganache via-lavender-macaron to-golden-honeycomb rounded-xl blur-lg group-hover:opacity-70 group-hover:-inset-1 group-hover:duration-200 animate-tilt">
+                                className="absolute duration-300 ease-in-out opacity-0 transitiona-all -inset-px bg-gradient-to-r from-raspberry-ganache via-lavender-macaron to-golden-honeycomb rounded-xl blur-lg group-hover:opacity-70 group-hover:-inset-1 group-hover:duration-200 animate-tilt">
                             </div>
                             <Image
                                 priority
@@ -37,13 +37,13 @@ export default function Stacks() {
                             /> */}
                         </div>
                     </Link>
-                    <span className="text-lg mt-2">Git</span>
+                    <span className="mt-2 text-lg">Git</span>
                 </div>
                 <div className="flex flex-col items-center justify-center">
                     <Link href={"https://vercel.com/"}>
                         <div className="relative inline-flex group">
                             <div
-                                className="absolute transitiona-all ease-in-out duration-300 opacity-0 -inset-px bg-gradient-to-r from-raspberry-ganache via-lavender-macaron to-golden-honeycomb rounded-xl blur-lg group-hover:opacity-70 group-hover:-inset-1 group-hover:duration-200 animate-tilt">
+                                className="absolute duration-300 ease-in-out opacity-0 transitiona-all -inset-px bg-gradient-to-r from-raspberry-ganache via-lavender-macaron to-golden-honeycomb rounded-xl blur-lg group-hover:opacity-70 group-hover:-inset-1 group-hover:duration-200 animate-tilt">
                             </div>
                             <Image
                                 priority
@@ -64,13 +64,13 @@ export default function Stacks() {
                             /> */}
                         </div>
                     </Link>
-                    <span className="text-lg mt-2">Vercel</span>
+                    <span className="mt-2 text-lg">Vercel</span>
                 </div>
                 <div className="flex flex-col items-center justify-center">
                     <Link href={"https://tailwindcss.com/"}>
                         <div className="relative inline-flex group">
                             <div
-                                className="absolute transitiona-all ease-in-out duration-300 opacity-0 -inset-px bg-gradient-to-r from-raspberry-ganache via-lavender-macaron to-golden-honeycomb rounded-xl blur-lg group-hover:opacity-70 group-hover:-inset-1 group-hover:duration-200 animate-tilt">
+                                className="absolute duration-300 ease-in-out opacity-0 transitiona-all -inset-px bg-gradient-to-r from-raspberry-ganache via-lavender-macaron to-golden-honeycomb rounded-xl blur-lg group-hover:opacity-70 group-hover:-inset-1 group-hover:duration-200 animate-tilt">
                             </div>
                             <Image
                                 priority
@@ -91,13 +91,13 @@ export default function Stacks() {
                             /> */}
                         </div>
                     </Link>
-                    <span className="text-lg mt-2">Tailwind CSS</span>
+                    <span className="mt-2 text-lg">Tailwind CSS</span>
                 </div>
                 <div className="flex flex-col items-center justify-center">
                     <Link href={"https://www.typescriptlang.org/"}>
                         <div className="relative inline-flex group">
                             <div
-                                className="absolute transitiona-all ease-in-out duration-300 opacity-0 -inset-px bg-gradient-to-r from-raspberry-ganache via-lavender-macaron to-golden-honeycomb rounded-xl blur-lg group-hover:opacity-70 group-hover:-inset-1 group-hover:duration-200 animate-tilt">
+                                className="absolute duration-300 ease-in-out opacity-0 transitiona-all -inset-px bg-gradient-to-r from-raspberry-ganache via-lavender-macaron to-golden-honeycomb rounded-xl blur-lg group-hover:opacity-70 group-hover:-inset-1 group-hover:duration-200 animate-tilt">
                             </div>
                             <Image
                                 priority
@@ -118,13 +118,13 @@ export default function Stacks() {
                             /> */}
                         </div>
                     </Link>
-                    <span className="text-lg mt-2">Typescript</span>
+                    <span className="mt-2 text-lg">Typescript</span>
                 </div>
                 <div className="flex flex-col items-center justify-center">
                     <Link href={"https://ui.shadcn.com/"}>
                         <div className="relative inline-flex group">
                             <div
-                                className="absolute transitiona-all ease-in-out duration-300 opacity-0 -inset-px bg-gradient-to-r from-raspberry-ganache via-lavender-macaron to-golden-honeycomb rounded-xl blur-lg group-hover:opacity-70 group-hover:-inset-1 group-hover:duration-200 animate-tilt">
+                                className="absolute duration-300 ease-in-out opacity-0 transitiona-all -inset-px bg-gradient-to-r from-raspberry-ganache via-lavender-macaron to-golden-honeycomb rounded-xl blur-lg group-hover:opacity-70 group-hover:-inset-1 group-hover:duration-200 animate-tilt">
                             </div>
                             <Image
                                 priority
@@ -145,13 +145,13 @@ export default function Stacks() {
                             /> */}
                         </div>
                     </Link>
-                    <span className="text-lg mt-2">Shadcn/ui</span>
+                    <span className="mt-2 text-lg">Shadcn/ui</span>
                 </div>
                 <div className="flex flex-col items-center justify-center">
                     <Link href={"https://www.prisma.io/"}>
                         <div className="relative inline-flex group">
                             <div
-                                className="absolute transitiona-all ease-in-out duration-300 opacity-0 -inset-px bg-gradient-to-r from-raspberry-ganache via-lavender-macaron to-golden-honeycomb rounded-xl blur-lg group-hover:opacity-70 group-hover:-inset-1 group-hover:duration-200 animate-tilt">
+                                className="absolute duration-300 ease-in-out opacity-0 transitiona-all -inset-px bg-gradient-to-r from-raspberry-ganache via-lavender-macaron to-golden-honeycomb rounded-xl blur-lg group-hover:opacity-70 group-hover:-inset-1 group-hover:duration-200 animate-tilt">
                             </div>
                             <Image
                                 priority
@@ -172,13 +172,13 @@ export default function Stacks() {
                             /> */}
                         </div>
                     </Link>
-                    <span className="text-lg mt-2">Prisma</span>
+                    <span className="mt-2 text-lg">Prisma</span>
                 </div>
                 <div className="flex flex-col items-center justify-center col-span-3 md:col-span-1">
                     <Link href={"https://www.postgresql.org/"}>
                         <div className="relative inline-flex group">
                             <div
-                                className="absolute transitiona-all ease-in-out duration-300 opacity-0 -inset-px bg-gradient-to-r from-raspberry-ganache via-lavender-macaron to-golden-honeycomb rounded-xl blur-lg group-hover:opacity-70 group-hover:-inset-1 group-hover:duration-200 animate-tilt">
+                                className="absolute duration-300 ease-in-out opacity-0 transitiona-all -inset-px bg-gradient-to-r from-raspberry-ganache via-lavender-macaron to-golden-honeycomb rounded-xl blur-lg group-hover:opacity-70 group-hover:-inset-1 group-hover:duration-200 animate-tilt">
                             </div>
                             <Image
                                 priority
@@ -199,7 +199,7 @@ export default function Stacks() {
                             /> */}
                         </div>
                     </Link>
-                    <span className="text-lg mt-2">PostgreSQL</span>
+                    <span className="mt-2 text-lg">PostgreSQL</span>
                 </div>
             </div>
         </div>

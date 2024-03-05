@@ -28,8 +28,8 @@ export default function RootLayout({
         <link rel="icon" type="image/png" href="/images/favicon.ico" />
       </Head>
       <body className={`${font.className} min-h-screen flex flex-col text-justify`}>
-        {/* <main className='py-12 px-8 md:px-12 xl:px-24 flex-1 overflow-y-auto relative'> */}
-        <main className='py-12 px-8 md:px-12 xl:px-24 flex-1 overflow-y-auto'>
+        {/* <main className='relative flex-1 px-8 py-12 overflow-y-auto md:px-12 xl:px-24'> */}
+        <main className='flex-1 px-8 py-12 overflow-y-auto md:px-12 xl:px-24'>
           {children}
         </main>
       </body>
